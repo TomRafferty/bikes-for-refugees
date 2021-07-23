@@ -144,10 +144,36 @@ button {
   padding-bottom: 2em;
 }
 
+.boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  margin: 1em;
+}
+.boxes .box {
+  border: 0.1em solid black;
+  border-radius: 0.2em;
+  background-color: #292b2c;
+  padding: 0.5em;
+  color: white;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 992px) {
   .navbar-brand > img {
     max-height: 80px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .jumbotron h2 {
+    font-size: 28px;
+  }
+  .jumbotron button {
+    font-size: 10px;
+  }
+  .boxes {
+    gap: 0.1em;
   }
 }
