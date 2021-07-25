@@ -68,7 +68,7 @@ button {
 
 .jumbotron {
   /* this doesn't work and I can't figure out why. */
-  background-image: url("images\header-bike.jpg");
+  background-image: url("../images/header-bike.jpg");
   border-radius: 0;
   color: #fff;
 }
@@ -177,4 +177,16 @@ button {
   .boxes {
     gap: 0.1em;
   }
+}
+
+button {
+  background-color: #dd5419;
+  color: rgb(255, 228, 212);
+  border: none;
+  border-radius: 0.2em;
+  padding: 0.3em;
+}
+#white-button {
+  background-color: white;
+  color: #dd5419;
 }
