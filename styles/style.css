@@ -67,7 +67,8 @@ button {
 /* Jumbotron */
 
 .jumbotron {
-  background-image: url("../images/header.jpg");
+  /* this doesn't work and I can't figure out why. */
+  background-image: url("images\header-bike.jpg");
   border-radius: 0;
   color: #fff;
 }
