@@ -100,6 +100,11 @@ button {
 
 .article {
   margin-bottom: 2em;
+  border: solid;
+  border-width: 1px;
+  border-radius: 0.3em;
+  border-color: rgb(180, 180, 180);
+  padding: 1em;
 }
 
 .article__image {
